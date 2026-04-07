@@ -2,6 +2,8 @@
 1) pip install pytest-playwright
 2) playwright install
 
+[Документация](https://playwright.dev/python/docs/intro)
+
 <details>
     <summary>Основные действия:</summary>
     
@@ -45,3 +47,9 @@ expect(locator).to_have_value() --	Input element has value
 expect(page).to_have_title() --	Page has title  
 expect(page).to_have_url() --	Page has URL 
 </details> 
+
+
+Генератор кода:
+```commandline
+playwright codegen https://demowebshop.tricentis.com
+```
